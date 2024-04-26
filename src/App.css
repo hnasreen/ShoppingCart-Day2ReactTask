@@ -1,0 +1,11 @@
+.bottom-footer{
+  background-color:rgb(33,37,41);
+  height:100px;
+  display:flex;
+  justify-content: center;
+  
+}
+p{
+  color:white;
+  padding-top: 30px;
+}
