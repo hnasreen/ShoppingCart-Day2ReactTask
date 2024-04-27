@@ -1,4 +1,12 @@
-const Navbar = ({cartQuantity}) => {
+import {CartContext } from '../App'
+import { useContext } from 'react';
+
+const Navbar = () => {
+
+    // importing the cartQuantity to update the cart counter value in the cart button.
+
+    const { cartQuantity } = useContext(CartContext);
+
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <a className="navbar-brand" href="#">Start Bootstrap</a>

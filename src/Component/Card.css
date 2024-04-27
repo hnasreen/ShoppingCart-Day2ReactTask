@@ -1,8 +1,28 @@
 .card-body{
     text-align: center;
     justify-content: center;
+    height: 110px; /* Set a fixed height for the card body */
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .card{
     display: flex;
-    align-items: center;
+    align-items: center; 
 }
+
+.card-wrapper {
+    width: 18rem; /* Set a fixed width */
+    height: 100%;  /*Set a fixed height */
+    margin-bottom: 20px; /* Optional: Add margin-bottom to create spacing between cards */
+}
+.star-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    
+}
+
+
